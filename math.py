@@ -14,5 +14,5 @@ class Math:
         return num1 / num2
     
     def exponent(num1, num2):
-        pass
-        
+        return num1 ** num2
+
