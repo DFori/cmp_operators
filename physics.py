@@ -19,8 +19,8 @@ class Physics:
         return vel
     
     def pressure(self, f, a):
-        press = f / a
-        return press
+        pressa = f / a
+        return pressa
     
 
 # phy = Physics()
