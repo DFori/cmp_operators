@@ -14,4 +14,17 @@ class Physics:
         force = m * a
         return force
     
+    def velocity(self, u, a, t):
+        vel = u + (a * t)
+        return vel
     
+    def pressure(self, f, a):
+        press = f / a
+        return press
+    
+
+# phy = Physics()
+
+# opt = phy.velocity(1, 2, 3)
+# print(opt)
+
