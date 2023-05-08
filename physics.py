@@ -13,3 +13,5 @@ class Physics:
     def calc_force(self, m, a):
         force = m * a
         return force
+    
+    
